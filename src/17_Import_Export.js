@@ -15,7 +15,7 @@ console.log(nombresCarros);
 
 //const carroPorNombre = carros.find(i => i.nombre === 'Formentor' )
 console.log('Carro por nombre : ');
-console.log(carroPorNombre('Miguel'));
+console.log(carroPorNombre());
 
 const carroFilter = carros.filter(i => i.id !== 1 )
 
